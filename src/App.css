@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+ body {
+  margin: 0;
+  padding: 0;
+ }
+  
+.addTask {
+  height: 30vh;
+  width: 100vw;
+  background: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  
+} 
+
+.task {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  margin: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.task button {
+  width: auto;
+  height: 20px;
+  margin-left: 15px;
+  text-align: center;
+}
